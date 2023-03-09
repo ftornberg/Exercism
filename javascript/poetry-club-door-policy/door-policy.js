@@ -50,6 +50,7 @@ export function frontDoorPassword(word) {
  * @returns {string}
  */
 export function backDoorResponse(line) {
+	line = line.trim()
 	return line.charAt(line.length - 1)
 }
 
@@ -61,5 +62,6 @@ export function backDoorResponse(line) {
  * @returns {string} the back door password
  */
 export function backDoorPassword(word) {
-	throw new Error('Remove this line and implement the function')
+	word = frontDoorPassword(word)
+	return `${word}, please`
 }
