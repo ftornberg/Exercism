@@ -10,7 +10,7 @@
 ## 2. Calculate the number of visiting birds in a specific week
 
 - This task is similar to the first one.
-  You can copy your code as a starting point.
+- You can copy your code as a starting point.
 - Think about which indexes in the array you would need to take into account for week number 1 and 2, respectively.
 - Now, find a general way to calculate the first and the last index that should be considered.
 - With that, you can set up the for loop to only iterate over the relevant section of the array.
