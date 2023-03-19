@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "javascript"
+		},
+		{
+			"path": "csharp"
+		},
+		{
+			"path": "typescript"
 		}
 	],
 	"settings": {}
